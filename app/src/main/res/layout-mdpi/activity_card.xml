@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animationCache="true"
+    android:background="@drawable/layout_border"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:scrollbars="vertical" >
+
+    <include layout="@layout/front_card" />
+
+    <include
+        layout="@layout/back_card"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/other_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animationCache="true"
+        android:background="@drawable/layout_border"
+        android:gravity="center|top"
+        android:orientation="vertical"        
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:scrollbars="vertical"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/other_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/personal_info"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textIsSelectable="false"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/other_info_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible" >
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

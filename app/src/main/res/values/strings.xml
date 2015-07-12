@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Card Demo</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_qrcode">QRCode</string>
+    <string name="action_dots">More</string>
+    <string name="personal_info">PERSONAL INFO</string>
+    <string name="qrcode">qrcode generate by zxing library</string>
+
+
+</resources>

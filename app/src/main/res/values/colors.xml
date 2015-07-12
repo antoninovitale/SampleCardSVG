@@ -1,0 +1,22 @@
+<resources>
+
+    <color name="white_soft">#ffF8F8FF</color>
+    <color name="black">#ff000000</color>
+    <color name="dark_gray">#ff4b575f</color>
+    <color name="light_gray">#ff8a9197</color>
+    <color name="light_gray_tool">#ffeeeeee</color>
+    <color name="medium_gray_tool">#ffd6d6d6</color>
+    <color name="blu_nfc">#ff0f8b97</color>
+    <color name="orange_alert">#ffff8200</color>
+    <color name="custom_theme_color">#b0b0ff</color>
+    <color name="custom_theme_color_one">#ffffff</color>
+    <color name="widget_text">#EBEBEB</color>
+    <color name="green">#8BB83F</color>
+    <color name="red">#EB2E20</color>
+    <color name="widget_background">#5D8AA8</color>
+    <color name="panel">#ffcccccc</color>
+    <color name="note">#ffffcc</color>
+    <color name="text_color">#31D1F1</color>
+    <color name="white">#ffffff</color>
+
+</resources>

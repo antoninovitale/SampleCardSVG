@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/light_gray_tool" />
+    <stroke android:width="2dp" android:color="@color/white" />     
+    <padding android:left="7dp" android:top="7dp"
+            android:right="7dp" android:bottom="7dp" />
+    <corners android:radius="10dp" />
+</shape> <!-- From: file:/Users/macbook/AS_Projects/SampleCardSVG/app/src/main/res/drawable/layout_border.xml -->

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_dots"
+        android:icon="@drawable/menu_dots"
+        android:orderInCategory="102"
+        android:showAsAction="always"
+        android:title="@string/action_dots">
+        <menu>
+            <item
+                android:id="@+id/action_refresh"
+                android:icon="@drawable/ic_menu_refresh_holo_light"
+                android:orderInCategory="103"
+                android:showAsAction="collapseActionView"
+                android:title="@string/action_refresh"/>
+            <item
+                android:id="@+id/action_qrcode"
+                android:orderInCategory="104"
+                android:showAsAction="collapseActionView"
+                android:title="@string/action_qrcode"/>
+        </menu>
+    </item>
+
+</menu>

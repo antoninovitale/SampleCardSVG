@@ -1,0 +1,10 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/front_card_container"
+    android:layout_width="282dp"
+    android:layout_height="212dp"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:alpha="1"
+    android:background="@color/light_gray_tool" >
+
+</RelativeLayout><!-- From: file:/Users/macbook/AS_Projects/SampleCardSVG/app/src/main/res/layout/front_card.xml -->
